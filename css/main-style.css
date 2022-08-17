@@ -1,0 +1,39 @@
+body, p{
+    margin: 0;
+    
+}
+.esqcima p {
+    background-color: red;
+    width: 140px;
+    height: 140px;
+    
+}
+.esqbaixo p {
+    background-color: green;
+    width: 140px;
+    height: 140px;
+
+}
+.dircima p {
+    background-color: yellow;
+    width: 140px;
+    height: 140px;
+
+}
+.dirbaixo p {
+    background-color: blue;
+    width: 140px;
+    height: 140px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 655px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}

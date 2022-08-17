@@ -1,0 +1,37 @@
+body, h1, h2 {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+span {
+    font-weight: 900;
+}
+
+.header {
+    background-color: #a7fffd;
+    padding: 300px 0px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head {
+    width: 500px;
+}
+
+.head p {
+    font-size: 18px;
+}
+
+.head-text {
+    margin-bottom: 50px;
+}
+
+.student {
+    width: 600px;
+}
+

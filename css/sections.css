@@ -1,0 +1,102 @@
+.list {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+/* .list-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.list-itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-itens li {
+    align-items: center;
+    border: solid 3px #000;
+    border-radius: 10%;
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    height: 250px;
+    justify-content: space-around;
+    margin: 90px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    width: 350px;
+}
+
+.jornalismo {
+    background-image: url('https://folhadolitoral.com.br/wp-content/uploads/2020/03/a0ugqybn_1584889294.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jornalismo:hover {
+    filter:drop-shadow(0 0 0.75rem black);
+}
+
+.assessoria {
+    background-image: url('http://www.zaft.com.br/cms/upload/lume/imprensa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.assessoria:hover {
+    filter:drop-shadow(0 0 0.75rem orange);
+}
+
+.multimidia {
+    background-image: url('https://www.cpqd.com.br/wp-content/uploads/2015/02/header_comunicacao_mulltimidia.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.multimidia:hover {
+    filter:drop-shadow(0 0 0.75rem blue);
+}
+
+.footer {
+    background-color: #a7fffd;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px; left: 90px;
+    
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #292d33;
+    width: 900px;
+    height: 150px;
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+
+.footer h3 {
+    font-size: 18px;
+
+}
+
